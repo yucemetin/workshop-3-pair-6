@@ -6,10 +6,10 @@ public class StudentManager implements StudentService {
 
     public StudentManager() {
         students = new ArrayList<>();
-        students.add(new Student("ad", "12", 1, "12313", 123));
-        students.add(new Student("ad", "12", 1, "12313", 123));
-        students.add(new Student("ad", "12", 1, "12313", 123));
-        students.add(new Student("ad", "12", 1, "12313", 123));
+        students.add(new Student("student1", "xxx", 1, "12313", 123));
+        students.add(new Student("student2", "xxx", 2, "12313", 123));
+        students.add(new Student("student3", "xxx", 3, "12313", 123));
+        students.add(new Student("student4", "xxx", 4, "12313", 123));
     }
 
     @Override
