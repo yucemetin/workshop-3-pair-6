@@ -42,6 +42,7 @@ public class StudentManager implements StudentService {
                 student.setLatName(newStudent.getLatName());
                 student.setStudentNo(newStudent.getStudentNo());
                 student.setNationalityId(newStudent.getNationalityId());
+                student.setGroup(newStudent.getGroup());
                 return;
             }
         }
